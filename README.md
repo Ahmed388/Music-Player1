@@ -1,2 +1,2 @@
-# Music-Player1
+# Music Player1
 Making my first Music Player
