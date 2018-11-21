@@ -2,7 +2,7 @@ color purple = #FF03F3;
 color yellow = #FFF703;
 color regularButton = purple;
 color hoverOverButton = yellow;
-String title= "Quit";
+String title= "Power";
 PFont titleFont;
 
 void quitButtonSetup() {
