@@ -7,6 +7,11 @@ void musicPlayerGUI_Setup() {
  //ellipse(width*1/2, height*1/2, width*1/2, width *1/2); //Outer
  line(50, 460, 450, 460);
  line(50, 120, 450, 120);
+ rect(95, 150, 300, 50, 10);
+ rect(95, 225, 300, 50, 10);
+ rect(95, 300, 300, 50, 10);
+strokeWeight(4);  // Thicker
+
  //Changes the thickness of the line
  //ellipse(); //Middle
  //stroke(1); //Reset default
