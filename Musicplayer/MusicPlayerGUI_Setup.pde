@@ -20,6 +20,7 @@ strokeWeight(4);  // Thicker
  //fill(); //reminder: reset to defaults each time
  
  //Play-Pause Button
+  triangle(230, 95, 230, 70, 250, 80);
  //rect( , , , , 15); //Cornors rounded more than outer Rectangle, change?
  //triangle(); //Notice XY Cordinates
  //line();

@@ -1,5 +1,9 @@
 //Gloabal Variables
-color white = #FFFFFF;
+color bColor = color(255, 255, 255);
+
+void mousePressed() {
+  bColor = color(random(255), random(255), random(255));
+}
 
 void setup () {
   size(500, 600);
@@ -14,7 +18,8 @@ void setup () {
 }
 
 void draw() {
-  background(white);
+  background(bColor);
+
   quitButtonDraw();
  musicPlayerGUI_Setup();
 }
