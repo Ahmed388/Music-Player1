@@ -20,7 +20,15 @@ strokeWeight(4);  // Thicker
  //fill(); //reminder: reset to defaults each time
  
  //Play-Pause Button
+ fill(mouseX, 0, mouseY);
   triangle(230, 95, 230, 70, 250, 80);
+  line(265, 70, 265, 100);
+  line(275, 70, 275, 100);
+  //Extra Buttons such as Fast Forward, Fast Backwards, Next Song, backtrack. 
+  triangle(330, 100, 330, 70, 350, 80);
+  line(360, 70, 360, 100);
+  triangle(200, 100, 200, 70, 180, 80);
+ line(175, 70, 175, 100);
  //rect( , , , , 15); //Cornors rounded more than outer Rectangle, change?
  //triangle(); //Notice XY Cordinates
  //line();
